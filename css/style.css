@@ -1,8 +1,20 @@
-.search-box .fa-search{
+*{
+    outline: 1px solid rgba(77,255,133,1);
+}
+header{
+		background-color: white;
+		position: relative;
+		width: 100%;
+		z-index: 1;
+	}
+
+
+.fa-search{
     margin-left: -25px;
 }
 .search-box input{
     padding: 5px;
+   
 }
 .estrenos img{
     width: 100%;
@@ -11,6 +23,41 @@
     width: 100%;
 }
 .hero .banner{
-    background: #333 url(../banner.jpg) no-repeat;
+    background: #333 url(../img/banner.jpg) no-repeat;
     background-size: cover;
+    width: 101.5%;
+    margin: 0px;
+	position: relative;
+    
+    	
+	
+}
+.ico{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top:220px;
+	left: 250px;
+
+}
+
+.fa fa-search{
+  color: #ccc;
+    
+}
+.col-4 .search-box{
+    padding:7px 10px;
+}
+header .col-8 span{
+    font-size: 18px;
+    color: grey;
+    font-family: cursive;
+   margin: 30px;
+    
+}
+.hero .col-4 h1,table,p {
+    color: darkgrey;
+}
+.hero .col-4 span{
+    color: lawngreen;
 }
