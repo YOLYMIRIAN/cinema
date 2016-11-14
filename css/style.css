@@ -5,7 +5,6 @@ header{
 		background-color: white;
 		position: relative;
 		width: 100%;
-		z-index: 1;
 	}
 
 .fa-search{
@@ -16,10 +15,18 @@ header{
    
 }
 .estrenos img{
-    width: 100%;
+   
+     padding: 25px 0 25px 0;
+     height: 250px;
 }
 .cartelera img{
     width: 100%;
+}
+.hero .container{
+    
+    width:1200px;
+    padding-left: 130px;
+    
 }
 .hero .banner{
     background: #333 url(../img/banner.jpg) no-repeat;
@@ -27,8 +34,8 @@ header{
     background-position: right;
     height: 450px;
     	
-	
 }
+
 .ico{
 	width: 70px;
 	height: 70px;
@@ -39,7 +46,7 @@ header{
 }
 
 .fa fa-search{
-  color: #ccc;
+  color: blackc;
     
 }
 .col-4 .search-box{
@@ -64,7 +71,7 @@ header .col-8 span{
     color: darkgrey;
     font-size: 17px;
 }
-.hero .col-4 span{
+.hero .col-4 #age{
     
     padding: 4px;
     border:solid 2px green;
@@ -78,8 +85,6 @@ header .col-8 span{
     border: 1px solid gray;
 
 }
-
-
 .hero .container .col-4 input,buttom {
     color: aliceblue;
     background-color: darkorange;
@@ -113,10 +118,24 @@ header .col-8 span{
     width: 300px;
    
 }
-.fa-youtube-play{
-    display: block;
-}
 
+ button  {
+	border-radius: 10%;
+	color: white;
+	width: 180px;
+	height: 30px;
+	margin-left: -30px;
+	margin-top: :10px; 
+	margin-bottom: 10px;
+	background: darkorange;
+	font-size: 15px;
+	text-transform: uppercase;
+     border-color: darkorange;
+}
+.hero .fa {
+	color: white;
+	position: relative;
+}
 
 
 .hero .container .col-4 table{
@@ -139,32 +158,45 @@ header .col-8 span{
     padding-right: 40px;
     
 }
+
+.estrenos .container{
+     background-color: GoldenRod;
+    width:1200px;
+    
+    
+    
+}
 .estrenos .container .row .col-2 img{
         position: relative;
-        width: 100%;
+        
         background-color: GoldenRod ;
-        margin: 0 20px;
-        padding: 30px 0;
-        right: 20px;
+        margin: 0 150px;
+        padding: 40px 0px;
+        right: 0px;
     
 }
 
 .estrenos .container .row {
        
-        background: GoldenRod ;   
+        background: GoldenRod ; 
+    padding-right: 100px;
+    padding: 0px;
 }
 
 
 section.estrenos .container_strenos{
-    position: relative;
     
     width: 100%;
     background: gold;   
 }
 section.estrenos .col-2 img{
-    margin: 0 20px;
+    margin: 0 0px;
     padding: 50px 0;}
-    
+    margin-right: 10px;
+
+
+
+
 /*----------------------ticket*/
 
 .contenido{
@@ -246,10 +278,7 @@ hr{
 .cartelera .container{
     margin: 0 70px;
 }
-.cartelera .container .col-3 img{
-    width: 20p%;
-    height: 20%;
-}
+
 
 
 
