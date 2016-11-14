@@ -1,4 +1,4 @@
-*{
+{
     outline: 1px solid rgba(77,255,133,1);
 }
 header{
@@ -52,8 +52,12 @@ header .col-8 span{
    margin: 30px;
     
 }
+
 .hero .col-4 h1,table,p, h4 {
     color: darkgrey;
+}
+.hero .col-4 h1{
+    font-size: 40px
 }
 .hero .col-4 span{
     
@@ -63,17 +67,33 @@ header .col-8 span{
     color: green;
     margin-right: 10px;
 }
+.hero .container .col-4 hr{
+    width: 250px;
+    margin: 20px;
+    border: 1px solid gray;
 
+}
 
 
 .hero .container .col-4 input,buttom {
     color: aliceblue;
-    background-color: darkorange
-    
+    background-color: darkorange;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;    
+    border-radius: 8px;
+    width: 150px;
 }
-.hero .container .col-4 buttom {
+.hero .container .col-4 #boton {
     color: aliceblue;
-    background-color: darkorange
+    background-color: darkorange;
+     font-size: 18px;
+    padding: 10px;
+    margin-top: 20px;    
+    border-radius: 8px;
+    width: 150px;
     
 }
 .hero .container .col-4 a{
@@ -85,18 +105,34 @@ header .col-8 span{
     margin-top: 20px;    
     border-radius: 10px;
     width: 300px;
+   
 }
 .estrenos .container .row .col-2 img{
         position: relative;
-        width: 80%;
-        background: gold;
-        top:  15px;
+        width: 100%;
+        background: GoldenRod ;
+        margin: 0 20px;
+        padding: 30px 0;
+        right: 20px;
+    
 }
 
 .estrenos .container .row {
        
-        background: gold;   
+        background: GoldenRod ;   
 }
+
+
+section.estrenos .container_strenos{
+    position: relative;
+    
+    width: 100%;
+    background: gold;   
+}
+section.estrenos .col-2 img{
+    margin: 0 20px;
+    padding: 50px 0;}
+    
 /*----------------------ticket*/
 
 .contenido{
@@ -132,10 +168,11 @@ header .col-8 span{
 .contenido .left p{
     color: DarkGoldenRod;
 }
-.contenido .right h4{
+.contenido .right h3{
     font-size: 30px;
     color: gray;
     padding-bottom: 20px;
+   
 }
 h6{
     width: bold;
@@ -147,6 +184,8 @@ hr{
 .contenido .right a{
     text-decoration: none;
     color: brown;
+    font-size: 22px;
+    
 }
 
 
@@ -175,9 +214,9 @@ hr{
 .cartelera .container{
     margin: 0 70px;
 }
-.cartelera .container .row img{
-    width: 100p%;
-    height: 100%;
+.cartelera .container .col-3 img{
+    width: 20p%;
+    height: 20%;
 }
 
 
@@ -191,12 +230,12 @@ footer{
     color: gray;
     font-size: 20px;
 }
-.container_footer{
+footer .container{
     margin: 0 70px;
     padding: 40px 0;
 }
-.container_footer h5{
+.container_footer h4{
     padding-top: 40px;
 }
-/*------------END-------footer*/
+/*--------------------footer*/
 
